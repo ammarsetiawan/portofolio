@@ -2,8 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
+
+
 
 :root {
   --primary-color: #2563eb;
@@ -39,6 +40,7 @@ html {
 }
 
 .navbar {
+  animation: down 1.8s ease;
   position: fixed;
   top: 0;
   width: 100%;
@@ -114,7 +116,7 @@ html {
 .hamburger {
   display: none;
   flex-direction: column;
-cursor: url(https://www.rw-designer.com/cursor-view/134656.png),auto;
+  cursor: url(https://www.rw-designer.com/cursor-view/134656.png),auto;
   gap: 4px;
 }
 
@@ -159,8 +161,8 @@ cursor: url(https://www.rw-designer.com/cursor-view/134656.png),auto;
 }
 
 .hero-img img{
+  animation: downin 3s infinite;
   filter: blur(0%);
-  animation: fadeInUp 2s ease-in-out;
   max-width: 200px;
   display: flex;  
   justify-content: center;
@@ -190,6 +192,7 @@ cursor: url(https://www.rw-designer.com/cursor-view/134656.png),auto;
   color: var(--text-light);
   margin-bottom: 1rem;
   font-weight: 600;
+  font-size: 1.25rem;
 }
 
 .hero-description {
@@ -228,6 +231,7 @@ cursor: url(https://www.rw-designer.com/cursor-view/134656.png),auto;
   transform: translateY(-2px);
   filter: drop-shadow(5px 6px rgba(0, 0, 0, 0.2));
   cursor: url(https://www.rw-designer.com/cursor-view/134656.png),auto;
+
 }
 
 .btn-secondary {
@@ -242,6 +246,7 @@ cursor: url(https://www.rw-designer.com/cursor-view/134656.png),auto;
   transform: translateY(-2px);
   filter: drop-shadow(-6px 5px rgba(0, 0, 0, 0.2));
   cursor: url(https://www.rw-designer.com/cursor-view/134656.png),auto;
+
 }
 
 section {
@@ -608,5 +613,28 @@ section {
 
   .btn {
     width: 100%;
+  }
+}
+
+@keyframes downin {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes down {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
