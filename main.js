@@ -29,9 +29,9 @@ const observer = new IntersectionObserver((entries) => {
   })
 }, observerOptions)
 
-document.querySelectorAll('.skill-card, .project-card').forEach(el => {
+document.querySelectorAll('.skill-card, .project-card, .contact, .about').forEach(el => {
   el.style.opacity = '0'
-  el.style.transform = 'translateY(30px)'
-  el.style.transition = 'all 0.6s ease'
+  el.style.transform = 'translateY(50px)'
+  el.style.transition = 'all 0.9s ease'
   observer.observe(el)
 })
