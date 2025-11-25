@@ -67,7 +67,7 @@ audio{
 
 
 .logo {
-  filter: drop-shadow(2px 4px rgba(0, 0, 0, 0.2));
+
   max-height:auto;
   max-width: 70px;
   font-size: 1.5rem;
@@ -658,4 +658,5 @@ section {
     transform: translateY(0);
   }
 }
+
 
