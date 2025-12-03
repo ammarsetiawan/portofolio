@@ -52,9 +52,6 @@ html {
   border-radius: 0 0 40px 40px;
 }
 
-audio{
-  width: 20dvh;
-}
 
 .nav-container {
   max-width: 1200px;
@@ -658,5 +655,6 @@ section {
     transform: translateY(0);
   }
 }
+
 
 
