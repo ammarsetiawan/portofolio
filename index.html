@@ -1,258 +1,183 @@
-  <!DOCTYPE html>
-  <html lang="en" dir="ltr">
-  <head>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Favicon -->
     <link rel="icon" href="icons/icon3.png" />
-    <title>Web | Weather</title>
-  </head>
+    <title>portofolio | Ammar</title>
+</head>
 
-  <body>
-      <nav className="navbar">
-        <div className="nav-container">
-          <a href="https://smktibazma.sch.id">
-            <img
-              src="image/images__1_-removebg-preview.png"
-              alt="Logo"
-              className="logo"
-            />
-          </a>
-
-          <audio
-            id="myAudio"
-            autoPlay
-            controls
-            src="wwd.mp3juice.blog - Perfection Sempurna English Version - BBIBEEB (256 KBps).mp3"
-          ></audio>
-
-          <ul className="nav-menu">
-            <li>
-              <a href="#home" className="nav-link">
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="#about" className="nav-link">
-                About
-              </a>
-            </li>
-            <li>
-              <a href="#skills" className="nav-link">
-                Skills
-              </a>
-            </li>
-            <li>
-              <a href="#projects" className="nav-link">
-                Projects
-              </a>
-            </li>
-            <li>
-              <a href="#contact" className="nav-link">
-                Contact
-              </a>
-            </li>
-          </ul>
-
-          <div className="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-      </nav>
-
-      {/* HOME SECTION */}
-      <section id="home" className="hero">
-        <div className="hero-content">
-          <div className="hero-img">
-            <img
-              src="image/Screenshot 2025-11-10 163543.png"
-              alt="profile"
-            />
-          </div>
-          <h1 className="hero-title">
-            Hi, I'm <span className="highlight">Ammar Bassam Setiawan</span>
-          </h1>
-          <p className="hero-subtitle">Full Stack Web Developer</p>
-          <p className="hero-description">
-            I create beautiful and functional websites that make a difference
-          </p>
-          <div className="hero-buttons">
-            <a href="#projects" className="btn btn-primary">
-              View Projects
+<body>
+    <nav class="navbar"> <div class="nav-container">
+            <a href="https://smktibazma.sch.id">
+                <img src="image/images__1_-removebg-preview.png" alt="Logo" class="logo" />
             </a>
-            <a href="#contact" className="btn btn-secondary">
-              Contact Me
-            </a>
-          </div>
+
+            <audio id="myAudio" autoplay controls 
+                src="wwd.mp3juice.blog - Perfection Sempurna English Version - BBIBEEB (256 KBps).mp3">
+            </audio>
+
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
-      </section>
+    </nav>
 
-      {/* ABOUT */}
-      <section id="about" className="about">
-        <div className="container">
-          <h2 className="section-title">About Me</h2>
-
-          <div className="about-content">
-            <div className="about-text">
-              <p>
-                Saya adalah seorang Pelajar/siswa di Smk TI Bazma. Saya memiliki
-                ketertarikan besar pada Web Development, dan pendekatan saya
-                menggabungkan keunggulan teknis dengan kreativitas.
-              </p>
-
-              <p>
-                My approach combines technical excellence with creative
-                problem-solving. I'm constantly learning and adapting to new
-                technologies to stay at the forefront of web development.
-              </p>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-img">
+                <img src="image/Screenshot 2025-11-10 163543.png" alt="profile" />
             </div>
-          </div>
+            <h1 class="hero-title">
+                Hi, I'm <span class="highlight">Ammar Bassam Setiawan</span>
+            </h1>
+            <p class="hero-subtitle">Full Stack Web Developer</p>
+            <p class="hero-description">
+                I create beautiful and functional websites that make a difference
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
         </div>
-      </section>
+    </section>
 
-      {/* SKILLS */}
-      <section id="skills" className="skills">
-        <div className="container">
-          <h2 className="section-title">My Skill</h2>
-
-          <div className="skills-grid">
-            <div className="skill-card">
-              <div className="skill-icon">
-                <img src="image/icons8-react-80.png" alt="" />
-              </div>
-              <h3>Frontend</h3>
-              <p>HTML, CSS, JavaScript, React</p>
-            </div>
-
-            <div className="skill-card">
-              <div className="skill-icon">
-                <img src="image/icons8-nodejs-48.png" alt="" />
-              </div>
-              <h3>Backend</h3>
-              <p>Node.js</p>
-            </div>
-
-            <div className="skill-card">
-              <div className="skill-icon">
-                <img src="image/icons8-c++-96.png" alt="" />
-              </div>
-              <h3>Machine Learning</h3>
-              <p>C++</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* PROJECT */}
-      <section id="projects" className="projects">
-        <div className="container">
-          <h2 className="section-title">My Projects</h2>
-
-          <div className="projects-grid">
-            <div className="project-card">
-              <div className="project-image">
-                <div className="project-overlay">
-                  <a
-                    href="https://ammarsetiawan.github.io/pokemon-project/"
-                    className="project-link"
-                  >
-                    View Project
-                  </a>
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Saya adalah seorang Pelajar/siswa di Smk TI Bazma. Saya memiliki
+                        ketertarikan besar pada Web Development, dan pendekatan saya
+                        menggabungkan keunggulan teknis dengan kreativitas.
+                    </p>
+                    <p>
+                        My approach combines technical excellence with creative
+                        problem-solving. I'm constantly learning and adapting to new
+                        technologies to stay at the forefront of web development.
+                    </p>
                 </div>
-              </div>
-              <div className="project-info">
-                <h3>Project Pokemon</h3>
-                <p>
-                  Pokemon list website showing type and info about each Pokemon.
-                </p>
-                <div className="project-tags">
-                  <span className="tag">React</span>
-                  <span className="tag">Node.js</span>
-                  <span className="tag">Vite</span>
-                </div>
-              </div>
             </div>
+        </div>
+    </section>
 
-            <div className="project-card">
-              <div className="project-image">
-                <div className="project-overlay">
-                  <a href="#" className="project-link">
-                    View Project
-                  </a>
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skill</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="image/icons8-react-80.png" alt="React" />
+                    </div>
+                    <h3>Frontend</h3>
+                    <p>HTML, CSS, JavaScript, React</p>
                 </div>
-              </div>
-              <div className="project-info">
-                <h3>Portfolio Website</h3>
-                <p>
-                  Modern and responsive portfolio showcase for creative
-                  professionals
-                </p>
-                <div className="project-tags">
-                  <span className="tag">HTML</span>
-                  <span className="tag">CSS</span>
-                  <span className="tag">JavaScript</span>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="image/icons8-nodejs-48.png" alt="NodeJS" />
+                    </div>
+                    <h3>Backend</h3>
+                    <p>Node.js</p>
                 </div>
-              </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="image/icons8-c++-96.png" alt="C++" />
+                    </div>
+                    <h3>Machine Learning</h3>
+                    <p>C++</p>
+                </div>
             </div>
-          </div>
         </div>
-      </section>
+    </section>
 
-      {/* CONTACT */}
-      <section id="contact" className="contact">
-        <div className="container">
-          <h2 className="section-title">My Contact</h2>
-
-          <div className="contact-content">
-            <div className="contact-info">
-              <div className="contact-item">
-                <h3>Email</h3>
-                <p>ammarsetiawan970@gmail.com</p>
-              </div>
-
-              <div className="contact-item">
-                <h3>Phone</h3>
-                <p>08*******67</p>
-              </div>
-
-              <div className="contact-item">
-                <h3>Social</h3>
-                <div className="social-links">
-                  <a
-                    href="https://github.com/ammarsetiawan"
-                    className="social-link"
-                  >
-                    GitHub
-                  </a>
-                  <a
-                    href="https://api.whatsapp.com/send/?phone=6282113051867"
-                    className="social-link"
-                  >
-                    Whatsapp
-                  </a>
-                  <a
-                    href="https://www.instagram.com/amrs0_9/"
-                    className="social-link"
-                  >
-                    Instagram
-                  </a>
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://ammarsetiawan.github.io/pokemon-project/" class="project-link">
+                                View Project
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Pokemon</h3>
+                        <p>Pokemon list website showing type and info about each Pokemon.</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Vite</span>
+                        </div>
+                    </div>
                 </div>
-              </div>
 
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Portfolio Website</h3>
+                        <p>Modern and responsive portfolio showcase for creative professionals</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </section>
+    </section>
 
-      <footer className="footer">
-        <div className="container">
-          <p>&copy; Portfolio Ammar - 2025</p>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">My Contact</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <p>ammarsetiawan970@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Phone</h3>
+                        <p>08*******67</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Social</h3>
+                        <div class="social-links">
+                            <a href="https://github.com/ammarsetiawan" class="social-link">GitHub</a>
+                            <a href="https://api.whatsapp.com/send/?phone=6282113051867" class="social-link">Whatsapp</a>
+                            <a href="https://www.instagram.com/amrs0_9/" class="social-link">Instagram</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </footer>
-    </body>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; Portfolio Ammar - 2025</p>
+        </div>
+    </footer>
+</body>
 </html>
-
