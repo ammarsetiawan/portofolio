@@ -2,24 +2,27 @@
 <html lang="en" dir="ltr">
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <title>Web | Weather Portfolio</title>
+    
+    <link rel="stylesheet" href="css/style.css" />
+    
     <link rel="icon" href="icons/icon3.png" />
-    <title>portofolio | Ammar</title>
 </head>
 
 <body>
-    <nav class="navbar"> <div class="nav-container">
+    <nav class="navbar">
+        <div class="nav-container">
             <a href="https://smktibazma.sch.id">
                 <img src="image/images__1_-removebg-preview.png" alt="Logo" class="logo" />
             </a>
 
-            <audio id="myAudio" autoplay controls 
-                src="wwd.mp3juice.blog - Perfection Sempurna English Version - BBIBEEB (256 KBps).mp3">
+            <audio id="myAudio" controls style="max-height: 30px;">
+                <source src="wwd.mp3juice.blog - Perfection Sempurna English Version - BBIBEEB (256 KBps).mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
             </audio>
 
-            <ul class="nav-menu">
+            <ul class="nav-menu" id="navMenu">
                 <li><a href="#home" class="nav-link">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#skills" class="nav-link">Skills</a></li>
@@ -27,7 +30,7 @@
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
 
-            <div class="hamburger">
+            <div class="hamburger" id="hamburger">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -38,14 +41,14 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <div class="hero-img">
-                <img src="image/Screenshot 2025-11-10 163543.png" alt="profile" />
+                <img src="image/Screenshot 2025-11-10 163543.png" alt="Ammar Bassam Setiawan" />
             </div>
             <h1 class="hero-title">
                 Hi, I'm <span class="highlight">Ammar Bassam Setiawan</span>
             </h1>
             <p class="hero-subtitle">Full Stack Web Developer</p>
             <p class="hero-description">
-                I create beautiful and functional websites that make a difference
+                I create beautiful and functional websites that make a difference.
             </p>
             <div class="hero-buttons">
                 <a href="#projects" class="btn btn-primary">View Projects</a>
@@ -60,7 +63,7 @@
             <div class="about-content">
                 <div class="about-text">
                     <p>
-                        Saya adalah seorang Pelajar/siswa di Smk TI Bazma. Saya memiliki
+                        Saya adalah seorang Pelajar/siswa di SMK TI Bazma. Saya memiliki
                         ketertarikan besar pada Web Development, dan pendekatan saya
                         menggabungkan keunggulan teknis dengan kreativitas.
                     </p>
@@ -76,11 +79,11 @@
 
     <section id="skills" class="skills">
         <div class="container">
-            <h2 class="section-title">My Skill</h2>
+            <h2 class="section-title">My Skills</h2>
             <div class="skills-grid">
                 <div class="skill-card">
                     <div class="skill-icon">
-                        <img src="image/icons8-react-80.png" alt="React" />
+                        <img src="image/icons8-react-80.png" alt="React Icon" width="50" />
                     </div>
                     <h3>Frontend</h3>
                     <p>HTML, CSS, JavaScript, React</p>
@@ -88,7 +91,7 @@
 
                 <div class="skill-card">
                     <div class="skill-icon">
-                        <img src="image/icons8-nodejs-48.png" alt="NodeJS" />
+                        <img src="image/icons8-nodejs-48.png" alt="NodeJS Icon" width="50" />
                     </div>
                     <h3>Backend</h3>
                     <p>Node.js</p>
@@ -96,7 +99,7 @@
 
                 <div class="skill-card">
                     <div class="skill-icon">
-                        <img src="image/icons8-c++-96.png" alt="C++" />
+                        <img src="image/icons8-c++-96.png" alt="C++ Icon" width="50" />
                     </div>
                     <h3>Machine Learning</h3>
                     <p>C++</p>
@@ -112,9 +115,7 @@
                 <div class="project-card">
                     <div class="project-image">
                         <div class="project-overlay">
-                            <a href="https://ammarsetiawan.github.io/pokemon-project/" class="project-link">
-                                View Project
-                            </a>
+                            <a href="https://ammarsetiawan.github.io/pokemon-project/" class="project-link" target="_blank">View Project</a>
                         </div>
                     </div>
                     <div class="project-info">
@@ -136,7 +137,7 @@
                     </div>
                     <div class="project-info">
                         <h3>Portfolio Website</h3>
-                        <p>Modern and responsive portfolio showcase for creative professionals</p>
+                        <p>Modern and responsive portfolio showcase for creative professionals.</p>
                         <div class="project-tags">
                             <span class="tag">HTML</span>
                             <span class="tag">CSS</span>
@@ -164,9 +165,9 @@
                     <div class="contact-item">
                         <h3>Social</h3>
                         <div class="social-links">
-                            <a href="https://github.com/ammarsetiawan" class="social-link">GitHub</a>
-                            <a href="https://api.whatsapp.com/send/?phone=6282113051867" class="social-link">Whatsapp</a>
-                            <a href="https://www.instagram.com/amrs0_9/" class="social-link">Instagram</a>
+                            <a href="https://github.com/ammarsetiawan" class="social-link" target="_blank">GitHub</a>
+                            <a href="https://api.whatsapp.com/send/?phone=6282113051867" class="social-link" target="_blank">Whatsapp</a>
+                            <a href="https://www.instagram.com/amrs0_9/" class="social-link" target="_blank">Instagram</a>
                         </div>
                     </div>
                 </div>
@@ -179,5 +180,23 @@
             <p>&copy; Portfolio Ammar - 2025</p>
         </div>
     </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('navMenu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Menutup menu saat link diklik (khusus mobile)
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+    </script>
 </body>
 </html>
