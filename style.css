@@ -389,7 +389,7 @@ section {
   background: url(image/portofolioweb.png) repeat center center/cover;
 }
 .project-card:nth-child(3) .project-image {
-  background: url(image/Web _ Weather - Google Chrome 05_01_2026 20_33_47.png) repeat center center/cover;
+  background: url(image/web_weather.png) repeat center center/cover;
 }
 
 
@@ -658,6 +658,7 @@ section {
     transform: translateY(0);
   }
 }
+
 
 
 
