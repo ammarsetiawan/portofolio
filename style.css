@@ -392,7 +392,7 @@ section {
   background: url(image/web_weather.png) repeat center center/cover;
 }
 .project-card:nth-child(4) .project-image {
-  background: url(image/Todo Apps.png) repeat center center/cover;
+  background: url(image/Todo.png) repeat center center/cover;
 }
 
 
@@ -661,6 +661,7 @@ section {
     transform: translateY(0);
   }
 }
+
 
 
 
