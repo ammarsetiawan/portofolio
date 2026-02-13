@@ -391,6 +391,9 @@ section {
 .project-card:nth-child(3) .project-image {
   background: url(image/web_weather.png) repeat center center/cover;
 }
+.project-card:nth-child(4) .project-image {
+  background: url(image/Todo Apps - Google Chrome 13_02_2026 21_12_51.png) repeat center center/cover;
+}
 
 
 
@@ -658,6 +661,7 @@ section {
     transform: translateY(0);
   }
 }
+
 
 
 
