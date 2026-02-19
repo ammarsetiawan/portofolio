@@ -30,7 +30,7 @@ body {
 }
 
 html {
-   scroll-snap-type: y mandatory;
+  
   scroll-behavior: smooth;
   cursor: url(https://www.rw-designer.com/cursor-view/134643.png), auto;
 
@@ -788,6 +788,7 @@ section {
     transform: translateY(0);
   }
 }
+
 
 
 
