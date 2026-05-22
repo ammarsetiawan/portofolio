@@ -397,6 +397,9 @@ section {
 .project-card:nth-child(4) .project-image {
   background: url(image/Todo.png) repeat center center/cover;
 }
+.project-card:nth-child(5) .project-image {
+  background: url(image/game.png) repeat center center/cover;
+}
 
 
 
